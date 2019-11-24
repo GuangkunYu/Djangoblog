@@ -13,23 +13,29 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# 项目的根目录，方便开发人员使用
+# os.path.abspath   绝对路径
+# os.path.dirname   文件所在目录
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# 秘钥
 SECRET_KEY = '2qo=vooswvh&g7y=#i+v#ew4zzv54fhr$1b^ro6n50^-2d59yn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# 调试模式
+# True  开启调试模式
+# 开始调式模式：1.更改Django代码，会自动重启服务   2.显示错误信息，请求信息
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+# 允许访问的主机
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
-
+# 注册APP的    注册子应用
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,8 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'MyBlogApp',
 ]
 
+# 中间件，中间人
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -49,12 +57,14 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# 路由的根目录
 ROOT_URLCONF = 'MyBlog.urls'
 
+# 模板的配置
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -67,23 +77,33 @@ TEMPLATES = [
     },
 ]
 
+# Django的内置服务器
 WSGI_APPLICATION = 'MyBlog.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+# 数据库相关配置
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+# MySQL数据库的配置
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'blog',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
-
+# 权限认证
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -99,22 +119,28 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
+# 语言配置
+LANGUAGE_CODE = 'zh-hans'
+# 时区配置
+TIME_ZONE = 'Asia/Shanghai'
+# 翻译系统
 USE_I18N = True
-
+# 数据本地化配置
 USE_L10N = True
-
-USE_TZ = True
-
+# 是否使用指定的时区
+# True 使用Django默认时区，内置时区
+# False 使用指定的时区
+USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-
-STATIC_URL = '/static/'
+# 静态文件配置
+STATIC_URL = '/static/'     # 静态文件的路由
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),       # 静态文件的路径
+)
+# 表示由/static/代理下面的静态文件的地址
+# 收集静态文件
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
