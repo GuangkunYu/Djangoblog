@@ -1,0 +1,41 @@
+{% extends 'myblog/base.html' %}
+
+{% block title %}
+    留言板
+{% endblock %}
+
+{% block content %}
+    <article>
+        <h1 class="t_nav"><span>像“草根”一样，紧贴着地面，低调的存在，冬去春来，枯荣无恙。</span>
+            <a href="/myblog/index/" class="n1">首页</a>
+            <a href="/myblog/gbook/" class="n2">留言</a>
+        </h1>
+        <div class="ab_box">
+            <div class="leftbox">
+                <div class="newsview">
+                    <div class="news_infos"> 此处安装插件</div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="aboutme">
+                    <h2 class="hometitle">关于我</h2>
+                    <div class="avatar"><img src="/static/myblog/images/avatar.jpg"></div>
+                    <div class="ab_con">
+                        <p>网名：愿随孤月影 | 于光坤</p>
+                        <p>职业：Python开发工程师、爬虫工程师 </p>
+                        <p>个人微信：yu18232454727</p>
+                        <p>邮箱：ygk_it@163.com <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1795056480@qq.com
+                        </p>
+                    </div>
+                </div>
+                <div class="weixin">
+                    <h2 class="hometitle">微信关注</h2>
+                    <ul>
+                        <img src="/static/myblog/images/wx.jpg">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+{% endblock %}
