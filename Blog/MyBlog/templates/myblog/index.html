@@ -7,31 +7,16 @@
 {% block content %}
     <div class="picshow">
         <ul>
-            <li><a href="#"><i><img src="/static/myblog/images/b01.jpg"></i>
-                <div class="font">
-                    <h3>Python基础+核心编程</h3>
-                </div>
-            </a></li>
-            <li><a href="#"><i><img src="/static/myblog/images/b02.jpg"></i>
-                <div class="font">
-                    <h3>HTML+CSS+JavaScript</h3>
-                </div>
-            </a></li>
-            <li><a href="#"><i><img src="/static/myblog/images/b03.jpg"></i>
-                <div class="font">
-                    <h3>Linux+MySQL</h3>
-                </div>
-            </a></li>
-            <li><a href="#"><i><img src="/static/myblog/images/b04.jpg"></i>
-                <div class="font">
-                    <h3>Django+flask</h3>
-                </div>
-            </a></li>
-            <li><a href="#"><i><img src="/static/myblog/images/b05.jpg"></i>
-                <div class="font">
-                    <h3>网络爬虫</h3>
-                </div>
-            </a></li>
+            {% for subject in course %}
+                <li>
+                    <a href="#"><i>
+                        <img src="/static/{{ subject.course_img }}"></i>
+                        <div class="font">
+                            <h3>{{ subject.course_name }}</h3>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
     <article>

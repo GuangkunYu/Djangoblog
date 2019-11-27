@@ -1,15 +1,17 @@
 from django.shortcuts import render
+from MyBlog.models import *
 
 
 # Create your views here.
 # 父类视图测试
-def base(request):
-    return render(request, 'myblog/base.html')
+# def base(request):
+#     return render(request, 'myblog/base.html')
 
 
 # 首页
 def index(request):
-    return render(request, 'myblog/index.html')
+    course = Course.objects.all()
+    return render(request, 'myblog/index.html', locals())
 
 
 # 关于我

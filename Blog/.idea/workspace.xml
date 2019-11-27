@@ -2,318 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d8c060-ccb9-445a-b68a-3e63053d2d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/css/m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/5794.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/author2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/b07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/banner01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/banner02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/banner03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/bi06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/blank.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/datepng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/jdbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/lanmbq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/mb08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/navbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/navline.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/newsbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/newsbg02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/newsbg03 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/newsbg03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/newsbg04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/posttime.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/t01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/t02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/t03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/text01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/text02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/titlebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/zd01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/zd02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/images/zd03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/static/myblog/js/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/gbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/share.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/MyBlog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlog/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlog/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlog/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/book.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/case.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/learn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/mood.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/share.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/css/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/1f8aea2172f6eb987c3de3f7ba474eb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/5416dd08017075c692766f67049890d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/5794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/5817.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/5849.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/5891.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/6167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/6264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/aboutphoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/banner_top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/e5e39b1148811261c78b933805d07232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/h_line.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/import.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/li.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/ph.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/photos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/r_line.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/r_title_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/time.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/weather.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/weather_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/weather_bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/images/weixin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/static/myblogapp/js/silder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/caselist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/knowledge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/moodlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/newlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/share.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/templates/myblogapp/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/MyBlogApp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/timeparse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/book.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/case.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/learn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/mood.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/share.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/css/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/1f8aea2172f6eb987c3de3f7ba474eb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/5416dd08017075c692766f67049890d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/5794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/5817.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/5849.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/5891.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/6167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/6264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/aboutphoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/banner_top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/e5e39b1148811261c78b933805d07232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/h_line.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/import.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/li.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/ph.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/photos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/r_line.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/r_title_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/time.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/weather.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/weather_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/weather_bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/images/weixin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBlog/static/myblogapp/js/silder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/templates/myblog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/templates/myblog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/templates/myblog/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,21 +21,55 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/settings.py">
+        <entry file="file://$PROJECT_DIR$/MyBlog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/index.html">
+        <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="161" column="101" selection-start-line="161" selection-start-column="101" selection-end-line="161" selection-end-column="101" />
+            <state relative-caret-position="579">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#1097#1796#0#HTML" />
+                <element signature="e#1809#2506#0#HTML" />
+                <element signature="e#2519#3216#0#HTML" />
+                <element signature="e#3229#3926#0#HTML" />
+                <element signature="e#3939#4638#0#HTML" />
+                <element signature="e#4651#5348#0#HTML" />
+                <element signature="e#5361#6060#0#HTML" />
+                <element signature="e#6073#6772#0#HTML" />
+                <element signature="e#6785#7484#0#HTML" />
+                <element signature="e#7497#8196#0#HTML" />
+                <element signature="e#8209#8908#0#HTML" />
+                <element signature="e#8921#9620#0#HTML" />
+                <element signature="e#9964#10765#0#HTML" />
+                <element signature="e#10778#11614#0#HTML" />
+                <element signature="e#11627#13521#0#HTML" />
+                <element signature="e#13534#13967#0#HTML" />
+                <element signature="e#13980#15874#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -374,21 +104,23 @@
         <option value="$PROJECT_DIR$/MyBlog/static/myblog/css/index.css" />
         <option value="$PROJECT_DIR$/MyBlog/static/myblog/css/base.css" />
         <option value="$PROJECT_DIR$/../../../downloads/博客模板/gbook.html" />
-        <option value="$PROJECT_DIR$/Blog/urls.py" />
         <option value="$PROJECT_DIR$/../../../downloads/博客模板/index.html" />
-        <option value="$PROJECT_DIR$/MyBlog/views.py" />
-        <option value="$PROJECT_DIR$/MyBlog/urls.py" />
         <option value="$PROJECT_DIR$/MyBlog/templates/myblog/share.html" />
-        <option value="$PROJECT_DIR$/MyBlog/templates/myblog/list.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/myblog/info.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/myblog/base.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/myblog/about.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/myblog/gbook.html" />
-        <option value="$PROJECT_DIR$/MyBlog/templates/myblog/index.html" />
-        <option value="$PROJECT_DIR$/Blog/settings.py" />
         <option value="$PROJECT_DIR$/Blog/__init__.py" />
         <option value="D:/install/develop/anaconda/envs/myenvs/Lib/site-packages/django/db/backends/mysql/base.py" />
         <option value="D:/install/develop/anaconda/envs/myenvs/Lib/site-packages/django/db/backends/mysql/operations.py" />
+        <option value="$PROJECT_DIR$/MyBlog/urls.py" />
+        <option value="$PROJECT_DIR$/MyBlog/views.py" />
+        <option value="$PROJECT_DIR$/MyBlog/templates/myblog/index.html" />
+        <option value="$PROJECT_DIR$/MyBlog/admin.py" />
+        <option value="$PROJECT_DIR$/Blog/settings.py" />
+        <option value="$PROJECT_DIR$/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/MyBlog/models.py" />
+        <option value="$PROJECT_DIR$/MyBlog/templates/myblog/list.html" />
       </list>
     </option>
   </component>
@@ -406,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,17 +174,10 @@
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,36 +242,37 @@
       <option name="presentableId" value="Default" />
       <updated>1574759859440</updated>
       <workItem from="1574759862716" duration="14832000" />
+      <workItem from="1574853214783" duration="10713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14832000" />
+    <option name="totallyTimeSpent" value="25545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14977308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1354009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.41692308" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5661538" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2830769" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" weight="0.32980332" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5923077" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,13 +284,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../../../downloads/博客模板/info.html</url>
           <line>132</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/MyBlog/templates/myblog/info.html</url>
           <line>109</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -588,16 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -708,30 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -756,10 +440,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="161" column="101" selection-start-line="161" selection-start-column="101" selection-end-line="161" selection-end-column="101" />
+        <state relative-caret-position="3942">
+          <caret line="146" column="101" selection-start-line="146" selection-start-column="101" selection-end-line="146" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/templates/myblog/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1097#1796#0#HTML" />
+            <element signature="e#1809#2506#0#HTML" />
+            <element signature="e#2519#3216#0#HTML" />
+            <element signature="e#3229#3926#0#HTML" />
+            <element signature="e#3939#4638#0#HTML" />
+            <element signature="e#4651#5348#0#HTML" />
+            <element signature="e#5361#6060#0#HTML" />
+            <element signature="e#6073#6772#0#HTML" />
+            <element signature="e#6785#7484#0#HTML" />
+            <element signature="e#7497#8196#0#HTML" />
+            <element signature="e#8209#8908#0#HTML" />
+            <element signature="e#8921#9620#0#HTML" />
+            <element signature="e#9964#10765#0#HTML" />
+            <element signature="e#10778#11614#0#HTML" />
+            <element signature="e#11627#13521#0#HTML" />
+            <element signature="e#13534#13967#0#HTML" />
+            <element signature="e#13980#15874#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
