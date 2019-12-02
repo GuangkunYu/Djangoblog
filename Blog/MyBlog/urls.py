@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 from MyBlog.views import *
 
 urlpatterns = [
@@ -9,4 +9,6 @@ urlpatterns = [
     path('list/', list),
     path('info/', info),
     path('gbook/', gbook),
+
+    # path('add_art/', add_art),
 ]
