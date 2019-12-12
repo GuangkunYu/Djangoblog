@@ -6,10 +6,13 @@
 
 {% block style %}
     <script src="/static/myblog/js/jquery-2.1.1.min.js"></script>
+    <script src="/static/myblog/js/vue.min.js"></script>
+    <script src="/static/myblog/js/vue-resource.js"></script>
 {% endblock %}
 
 {% block content %}
-{#    nav导航#}
+
+    {#        nav导航#}
     <div class="picshow">
         <ul>
             {% for subject in course %}
@@ -26,48 +29,58 @@
     </div>
 
 
-{#    首页主要内容content#}
-    <article>
-        <div class="blogs">
-            {% for art in article %}
-                <li class="outpart">
-                    <span class="blogpic">
+    {#        首页主要内容content#}
 
-                        <a href="/myblog/info/?id={{ art.id }}" class="by_click"><img src="/static/{{ art.art_img }}"></a>
+    <article>
+        {% verbatim %}
+        <div class="blogs" id="wrapper">
+
+            <div v-for="art in article">
+
+                <li class="outpart">
+                    <span class="blogpic" v-model=art>
+                        <a :href="'/myblog/info/?id='+art.id" class="by_click">
+                            <img :src="'/static/'+ art.art_img"></a>
                     </span>
                     <h3 class="blogtitle">
-                        <a href="/myblog/info/?id={{ art.id }}"  class="by_click">{{ art.art_title }}</a>
+                        <a :href="'/myblog/info/?id='+art.id" class="by_click">{{ art.art_title }}</a>
                     </h3>
-                    <div class="bloginfo">
-                        {{ art.art_description | safe }}
+                    <div class="bloginfo" v-html="art.art_description">
                     </div>
                     <div class="autor">
                     <span class="lm">
-                        <a href="/myblog/list/?type_id={{ art.art_type_id }}&art_id={{ art.id }}" title="{{ art.art_type }}" class="classname">{{ art.art_type }}</a>
+                        <a :href="'/myblog/list/?type_id='+art.art_type_id+'&art_id='+art.id"
+                           :title=art.art_type class="classname">{{ art.art_type }}</a>
                     </span>
                         <span class="dtime">{{ art.art_date }}</span>
-                        <span class="viewnum">浏览（<a href="/myblog/info/?id={{ art.id }}">{{ art.art_click }}</a>）</span>
-                        <span class="readmore"><a href="/myblog/info/?id={{ art.id }}"  class="by_click">阅读原文</a></span>
+                        <span class="viewnum">浏览（<a :href="'/myblog/info/?id='+art.id">{{ art.art_click }}</a>）</span>
+                        <span class="readmore"><a :href="'/myblog/info/?id='+art.id" class="by_click">阅读原文</a></span>
                     </div>
-{#                    {{ art.id }}#}
                 </li>
-
-            {% endfor %}
-{#            <a href="" class="moreadd">点击加载更多</a>#}
-        </div>
-
-
-{#        首页个人信息栏#}
-        <div class="sidebar">
-            <div class="about">
-                <div class="avatar"><img src="/static/images/my.jpg" alt=""></div>
-                <p class="abname">愿随孤月影 | 于光坤</p>
-                <p class="abposition">Python开发工程师、爬虫工程师</p>
-                <div class="abtext"> 95后草根站长！19年入行。一路走来，专心心研究Python开发技术，一边学习一边工作一边积累经验，分享成长路上的学习笔记和心得。</div>
             </div>
 
 
-{#            首页搜索框#}
+
+        </div>
+        {% endverbatim %}
+
+
+        {#    侧边栏#}
+        <div class="sidebar">
+
+
+            {#                        首页标签云#}
+            <div class="cloud">
+                <h2 class="hometitle">标签云</h2>
+                <ul>
+                    {% for subject in tags %}
+                        <a href="/myblog/list/?type_id={{ subject.id }}&page=1">{{ subject.course_name }}</a>
+                    {% endfor %}
+                    <a href="/myblog/share/">照片墙</a>
+                </ul>
+            </div>
+
+            {#                        首页搜索框#}
             <div class="search">
                 <form action="" method="post" name="searchform" id="searchform">
                     {% csrf_token %}
@@ -83,19 +96,7 @@
             </div>
 
 
-{#            首页标签云#}
-            <div class="cloud">
-                <h2 class="hometitle">标签云</h2>
-                <ul>
-                    {% for subject in tags %}
-                        <a href="/myblog/list/?type_id={{ subject.id }}&page=1">{{ subject.course_name }}</a>
-                    {% endfor %}
-                    <a href="/myblog/share/">照片墙</a>
-                </ul>
-            </div>
-
-
-{#            点击排行#}
+            {#                        点击排行#}
             <div class="paihang">
                 <h2 class="hometitle">点击排行</h2>
                 <ul>
@@ -116,7 +117,7 @@
             </div>
 
 
-{#            推荐#}
+            {#                        推荐#}
             <div class="paihang">
                 <h2 class="hometitle">推荐文章</h2>
                 <ul>
@@ -124,7 +125,7 @@
                         <li>
                             <b>
                                 <a href="/myblog/info/?id={{ recommend.id }}"
-                                  target="_blank">{{ recommend.art_title }}
+                                   target="_blank">{{ recommend.art_title }}
                                 </a>
                             </b>
                             <p>
@@ -142,7 +143,8 @@
             <div class="links">
                 <h2 class="hometitle">友情链接</h2>
                 <ul>
-                    <li><a href="https://github.com/GuangkunYu/Djangoblog" target="_blank" title="博客项目GitHub">我的博客项目GitHub</a></li>
+                    <li><a href="https://github.com/GuangkunYu/Djangoblog" target="_blank" title="博客项目GitHub">我的博客项目GitHub</a>
+                    </li>
                 </ul>
             </div>
 
@@ -156,10 +158,91 @@
         </div>
     </article>
     <div class="blank"></div>
+
 {% endblock %}
 
 
+
 {% block script %}
+    <script>
+        Vue.use(VueResource);
+        new Vue({
+                el: "#wrapper",
+                data: {
+                    article: [],
+                    page: 1,
+                    no_data: false,
+
+                },
+                created: function () {
+                    url = "/myblog/article_api/?page=" + this.page,
+                        this.$http.get(url).then(
+                            function (data) {
+                                article = data.data.res;
+                                this.article = article;
+                                this.page += 1;
+                            }
+                        );
+
+                    window.addEventListener("scroll", this.onscroll)
+                },
+                methods: {
+                    onscroll() {
+                        // 计算当前文档的总高度
+                       let dh = document.querySelector('body').clientHeight
+                        // 浏览器窗口的高度
+                        // 视窗高度
+                        let outerHeight = document.documentElement.clientHeight;
+                        // 滚动高度
+                        let scrollTop = document.documentElement.scrollTop;
+                        {#console.log(innerHeight, outerHeight, scrollTop)#}
+
+                        if (outerHeight + scrollTop >= dh) {
+                            console.log(11111111)
+                            if (this.no_data === true) {
+                                return false
+                            }
+                            url = "/myblog/article_api/?page=" + this.page;
+                            this.$http.get(url).then(
+                                function (data) {
+                                    if (data.data.res){
+                                        article = data.data.res;
+                                        this.article = this.article.concat(article)
+                                        console.log(this.article)
+                                        this.page = this.page + 1;
+                                    }else {
+                                        this.no_data = true;
+                                    }
+                                }
+                            ),500
+                        }
+
+                    }
+                }
+            }
+        )
+    </script>
+
+    {#        <script>#}
+    {#            var pn = 1#}
+    {#            $('#load').click(function(){#}
+    {#                pn++;#}
+    {#                $.get('/myblog/js/',{'pn':pn},function(data){#}
+    {#                    console.log(data)#}
+    {#                    for(i in data){#}
+    {#                        var newli = $('.outpart').eq(0).clone();#}
+    {#                        newli.find('.blogpic a').attr('href','/myblog/info/?id='+ data[i]['pk']);#}
+    {#                        newli.find('.blogpic img').attr('src','/static/'+data[i]['fields']['art_img']);#}
+    {#                        newli.find('.blogtitle a').attr('href','/myblog/info/?id='+ data[i]['pk']);#}
+    {#                        newli.find('.blogtitle a').html(data[i]['fields']['art_title']);#}
+    {#                        newli.find('.bloginfo').html(data[i]['fields']['art_description']);#}
+    {#                        newli.find('.lm a').attr('href','/myblog/list/?type_id='+data[i]['fields']['art_type']+'&art_id='+data[i]['pk']);#}
+    {#                        newli.find('.lm a').attr('title',data[i]['fields']['art_type']);#}
+    {#                        $('#load').before(newli)#}
+    {#                    }#}
+    {#                },'json')#}
+    {#            })#}
+    {#        </script>#}
 
 {% endblock %}
 

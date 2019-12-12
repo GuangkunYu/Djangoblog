@@ -16,7 +16,7 @@ def index(request):
     course = tags[:5]  # 大图
     recommend_art = Article.objects.filter(art_recommend=1)[0:6]  # 推荐的文章
     click_art = Article.objects.order_by('-art_click')[0:6]  # 点击率排行
-    article = Article.objects.order_by('-art_date').all()  # 所有文章
+    # article = Article.objects.order_by('-art_date').all()[:14]  # 所有文章
 
     return render(request, 'myblog/index.html', locals())
 
@@ -78,6 +78,45 @@ def info(request):
 # 留言板
 def gbook(request):
     return render(request, 'myblog/gbook.html')
+
+
+def js(request):
+    from django.core.serializers import serialize
+    # 获取页码
+    pn = request.GET.get('pn')
+    start = (int(pn) - 1) * 14
+    end = start + 14
+
+    article = Article.objects.order_by('-art_date').all()[start:end]
+    json_data = serialize('json', article)
+    # print(json_data)
+    return HttpResponse(json_data)
+
+
+def article_api(request):
+    page = int(request.GET.get('page'))
+    start = (int(page) - 1) * 12
+    end = start + 12
+    article = Article.objects.order_by('-art_date').all()[start:end]
+
+    res = []
+    for article in article:
+        img = str(article.art_img)
+        date = str(article.art_date)
+        # print(date)
+        res.append({
+            "id": article.id,
+            "art_img": img,
+            "art_title": article.art_title,
+            "art_description": article.art_description,
+            "art_type_id": article.art_type_id,
+            "art_type": article.art_type.course_name,
+            "art_date": date,
+            "art_click": article.art_click,
+        })
+    result = dict(res=res)
+
+    return JsonResponse(result)
 
 
 # 批量添加数据
