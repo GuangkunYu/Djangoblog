@@ -190,7 +190,7 @@
                             function (data) {
                                 article = data.data.res;
                                 this.article = article;
-                                this.page += 1;
+                                {#this.page += 1;#}
                             }
                         );
 
@@ -211,6 +211,7 @@
                             if (this.no_data === true) {
                                 return false
                             }
+                            this.page = this.page + 1;
                             url = "/myblog/article_api/?page=" + this.page;
                             this.$http.get(url).then(
                                 function (data) {
@@ -218,7 +219,7 @@
                                         article = data.data.res;
                                         this.article = this.article.concat(article)
                                         console.log(this.article)
-                                        this.page = this.page + 1;
+
                                     }else {
                                         this.no_data = true;
                                     }
