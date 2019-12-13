@@ -16,19 +16,6 @@ class Course(models.Model):
         verbose_name = '科目'  # 站点中以中文显示表名
         verbose_name_plural = verbose_name  # 默认以复数显示
 
-#
-# class Click(models.Model):
-#     click = models.IntegerField(default=0, verbose_name='点击率')
-#     recommend = models.IntegerField(default=0, verbose_name='推荐状态')  # 1 推荐   0 不推荐
-#
-#     def __str__(self):
-#         return self.click  # 返回用户名
-#
-#     class Meta:
-#         db_table = 'click'
-#         verbose_name = '点击推荐'  # 站点中以中文显示表名
-#         verbose_name_plural = verbose_name  # 默认以复数显示
-
 # 文章类
 class Article(models.Model):
     art_title = models.CharField(max_length=32, verbose_name='文章标题')

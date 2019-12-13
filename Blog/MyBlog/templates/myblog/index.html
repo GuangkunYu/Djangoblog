@@ -58,9 +58,6 @@
                     </div>
                 </li>
             </div>
-
-
-
         </div>
         {% endverbatim %}
 
@@ -159,11 +156,24 @@
     </article>
     <div class="blank"></div>
 
+    <div style="display: block; position: fixed; right: 15px; bottom: 80px;">
+        <a href="">
+            <img id="totop" src="/static/images/totop1.png" alt="回到顶部" style="width: 50px; ">
+        </a>
+    </div>
+
 {% endblock %}
 
-
-
 {% block script %}
+    <script>
+        var pic = document.getElementById("totop");
+        pic.onmouseover = function () {
+            pic.onmouseout = function () {
+                pic.src = "/static/images/totop1.png";
+            }
+            pic.src = "/static/images/totop.png";
+        }
+    </script>
     <script>
         Vue.use(VueResource);
         new Vue({
@@ -198,7 +208,6 @@
                         {#console.log(innerHeight, outerHeight, scrollTop)#}
 
                         if (outerHeight + scrollTop >= dh) {
-                            console.log(11111111)
                             if (this.no_data === true) {
                                 return false
                             }
@@ -216,7 +225,6 @@
                                 }
                             ),500
                         }
-
                     }
                 }
             }

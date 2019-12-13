@@ -6,8 +6,11 @@ from django.core.paginator import Paginator
 
 # Create your views here.
 # 父类视图测试
-# def base(request):
-#     return render(request, 'myblog/base.html')
+def base(request):
+    course = Course.objects.first()
+    id = course.id
+    print(id)
+    return render(request, 'myblog/base.html', locals())
 
 
 # 首页
@@ -36,19 +39,28 @@ from django.db.models import Q
 
 # 学无止境
 def list(request):
+    tags = Course.objects.all()
+    course = Course.objects.all()
     req_id = request.GET.get('type_id')  # 获取请求的文章类型id
     type_art = Article.objects.filter(art_type=req_id).order_by('-art_date').all()  # 获取请求同类型文章的所有数据
     article = type_art.first()
     art_id = request.GET.get('art_id')  # 获取文章id
     page = request.GET.get('page')
-    if art_id:  # 对请求是否有文章id进行判断
+    if not req_id and not page:
+        type_art = Article.objects.filter(art_type=1).order_by('-art_date').all()
+        click_art = Article.objects.filter(art_type=1).order_by('-art_click')[0:6]
+        page = 1
+    elif req_id and page:
+        click_art = Article.objects.filter(art_type_id=req_id).order_by('-art_click')[0:6]
+    elif art_id:  # 对请求是否有文章id进行判断
         # 如果有id，则对该文章处于该类型下文章的第几条进行统计，通过计数id<=art_id的个数，就是这篇文章处在第几条
         num = Article.objects.filter(Q(art_type=req_id) & Q(id__lte=art_id)).order_by('-art_date').count()
+        click_art = Article.objects.filter(art_type_id=req_id).order_by('-art_click')[0:6]
         page = num // 5 + 1  # 用得到的在第几条进行计算，得到这篇文章处于第几页
     else:
         # 如果没有id，则用请求的page参数进行计算
         page = request.GET.get('page')
-    paginator = Paginator(type_art, 5)  # 设置每页显示多少条数据，返回paginator对象
+    paginator = Paginator(type_art, 7)  # 设置每页显示多少条数据，返回paginator对象
     page_obj = paginator.page(page)  # 指定页码的一个对象, <page 1 to 7>
     number = page_obj.number  # 控制可迭代的总页数，并且当前页显示在最中间
     start = number - 2
@@ -67,11 +79,30 @@ def list(request):
 # 内容详情
 def info(request):
     req_id = request.GET.get('id')
-    art = Article.objects.filter(id=req_id).first()
+    art_list = []
+    if req_id:
+        art = Article.objects.filter(id=req_id).first()
+        arts = Article.objects.filter(art_type=art.art_type)
+    else:
+        art = Article.objects.filter(id=1).first()
+        arts = Article.objects.filter(art_type=art.art_type)
+    for one in arts:
+        art_list.append(one)
+    a = art_list.index(art)     # 获取当前文章的索引
+    if a == 0:
+        shang_page = None
+        xia_page = art_list[a+1]
+    else:
+        shang_page = art_list[a - 1]
+        print(shang_page,'---')
+        b = a + 1
+        if b < len(art_list):
+            xia_page = art_list[b]
+        else:
+            xia_page = None
     art.art_click += 1
     art.save()
-    # print(art.art_click)
-    # print(art.id)
+
     return render(request, 'myblog/info.html', locals())
 
 
@@ -80,17 +111,17 @@ def gbook(request):
     return render(request, 'myblog/gbook.html')
 
 
-def js(request):
-    from django.core.serializers import serialize
-    # 获取页码
-    pn = request.GET.get('pn')
-    start = (int(pn) - 1) * 14
-    end = start + 14
-
-    article = Article.objects.order_by('-art_date').all()[start:end]
-    json_data = serialize('json', article)
-    # print(json_data)
-    return HttpResponse(json_data)
+# def js(request):
+#     from django.core.serializers import serialize
+#     # 获取页码
+#     pn = request.GET.get('pn')
+#     start = (int(pn) - 1) * 14
+#     end = start + 14
+#
+#     article = Article.objects.order_by('-art_date').all()[start:end]
+#     json_data = serialize('json', article)
+#     # print(json_data)
+#     return HttpResponse(json_data)
 
 
 def article_api(request):
