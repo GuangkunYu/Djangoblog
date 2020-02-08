@@ -91,12 +91,14 @@ h3.blogtitle { line-height: 30px; height: 30px; margin: 10px 0; }
 .navbor:before { content: ""; width: 100px; height: 20px; background: #fff; top: -10px; left: 0; position: absolute }
 .navbor:after { content: ""; width: 20px; height: 100px; background: #fff; top: -10px; left: -10px; position: absolute }
 .picbox { width: 72%; float: left; overflow: hidden; margin-top: 20px }
-.picbox ul { overflow: hidden; width: 268px; float: left; margin-right: 16px }
-.picbox ul li { display: block; background: #FFF; margin: 0 0 20px 0; border: 1px #d9d9d9 solid; }
+.picbox ul { overflow: hidden; width:100%;}
+.picbox ul li { display: block; float: left; width: 30%; background: #FFF; margin: 0 20px 20px 0; border: 1px #d9d9d9 solid;}
 .picbox ul li i { margin: 10px; height: auto; overflow: hidden; display: block; }
-.picbox ul li img { width: 100%; }
+.picbox ul li img { width: 100%; height: 250px}
+.img {display: block; width: 100%; height: 250px}
+.picinfo {display: block; width: 100%; height: 190px}
 .picinfo h3 { border-bottom: #ccc 1px solid; padding: 20px 0; margin: 0 20px }
-.picinfo span { padding: 20px; display: block; color: #666 }
+.picinfo span { padding: 20px; display: block; color: #666; }
 .infos { float: left; width: 70%; overflow: hidden; background: #FFF; margin: 20px 0 }
 .newsview { padding: 0 30px }
 .intitle { line-height: 40px; height: 40px; font-size: 14px; ; border-bottom: #000 2px solid; }

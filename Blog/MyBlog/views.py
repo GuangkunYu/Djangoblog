@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from MyBlog.models import *
 from django.core.paginator import Paginator
+import time
 
 
 # Create your views here.
@@ -31,7 +32,14 @@ def about(request):
 
 # 我与她
 def share(request):
-    return render(request, 'myblog/share.html')
+    course = Course.objects.all()
+    citys = City.objects.all()
+    city_id = request.GET.get('id')
+    if city_id:
+        # print(city_id)
+        images = Images.objects.filter(images_type=city_id).all()
+    # print(city)
+    return render(request, 'myblog/share.html', locals())
 
 
 from django.db.models import Q
@@ -88,13 +96,13 @@ def info(request):
         arts = Article.objects.filter(art_type=art.art_type)
     for one in arts:
         art_list.append(one)
-    a = art_list.index(art)     # 获取当前文章的索引
+    a = art_list.index(art)  # 获取当前文章的索引
     if a == 0:
         shang_page = None
-        xia_page = art_list[a+1]
+        xia_page = art_list[a + 1]
     else:
         shang_page = art_list[a - 1]
-        print(shang_page,'---')
+        print(shang_page, '---')
         b = a + 1
         if b < len(art_list):
             xia_page = art_list[b]
@@ -108,20 +116,29 @@ def info(request):
 
 # 留言板
 def gbook(request):
-    return render(request, 'myblog/gbook.html')
+    comment = Comment.objects.order_by('-id').all()
+    if request.method == 'POST':
+        com = request.POST.get('com')
+        # print(com)
+        date = time.time()
+        # print(date)
+        comm = Comment()
+        comm.comment = com
+        comm.date = date
+        comm.save()
+    return render(request, 'myblog/gbook.html', locals())
 
 
-# def js(request):
-#     from django.core.serializers import serialize
-#     # 获取页码
-#     pn = request.GET.get('pn')
-#     start = (int(pn) - 1) * 14
-#     end = start + 14
-#
-#     article = Article.objects.order_by('-art_date').all()[start:end]
-#     json_data = serialize('json', article)
-#     # print(json_data)
-#     return HttpResponse(json_data)
+def comment_api(request):
+    com_obj_list = Comment.objects.order_by('-id').all()
+    res = []
+    for com_obj in com_obj_list:
+        res.append({
+            "comment": com_obj.comment,
+            "date": com_obj.date
+        })
+    result = dict(res=res)
+    return JsonResponse(result)
 
 
 def article_api(request):
@@ -129,7 +146,6 @@ def article_api(request):
     start = (int(page) - 1) * 12
     end = start + 12
     article = Article.objects.order_by('-art_date').all()[start:end]
-
     res = []
     for article in article:
         img = str(article.art_img)
@@ -146,8 +162,20 @@ def article_api(request):
             "art_click": article.art_click,
         })
     result = dict(res=res)
-
     return JsonResponse(result)
+
+
+# def js(request):
+#     from django.core.serializers import serialize
+#     # 获取页码
+#     pn = request.GET.get('pn')
+#     start = (int(pn) - 1) * 14
+#     end = start + 14
+#
+#     article = Article.objects.order_by('-art_date').all()[start:end]
+#     json_data = serialize('json', article)
+#     # print(json_data)
+#     return HttpResponse(json_data)
 
 
 # 批量添加数据

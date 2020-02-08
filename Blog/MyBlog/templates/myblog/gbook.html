@@ -4,6 +4,8 @@
     留言板
 {% endblock %}
 
+
+
 {% block content %}
     <article>
         <h1 class="t_nav"><span>昨天是一张已注销的支票，明天是一张期票，今天是手上的现金。</span>
@@ -13,7 +15,34 @@
         <div class="ab_box">
             <div class="leftbox">
                 <div class="newsview">
-                    <div class="news_infos"> 此处安装插件</div>
+                    <div class="news_infos">
+                        <form method="post">
+                            {%  csrf_token  %}
+                            <label>
+                                <input id="com" name="comment" placeholder="请输入留言" style="width: 100%; height: 150px">
+                            </label>
+                            <br><br>
+                            <div style="display: block; text-align: center">
+                                <input type="button" id="register" value="留言" style="width: 100px; height: 30px; font-size: larger">
+                            </div>
+                        </form>
+                    </div>
+{#                    <p id="tis"></p>#}
+                    <br><br>
+                    <h2>所有留言：</h2>
+                    <br>
+                    <div class="comment_all" id="cont">
+
+                    </div>
+{#                    <div class="comment_all">#}
+{#                            {% for com in comment %}#}
+{#                                <p style="background-color: #e2e2e2; height: 30px; line-height: 30px">#}
+{#                                    <span>{{ com.comment }}</span>#}
+{#                                    <span style="float: right">{{ com.date }}</span>#}
+{#                                </p>#}
+{#                                <br>#}
+{#                            {% endfor %}#}
+{#                    </div>#}
                 </div>
             </div>
             <div class="rightbox">
@@ -38,4 +67,55 @@
             </div>
         </div>
     </article>
+{% endblock %}
+
+
+{% block script %}
+    <script src="/static/myblog/js/jquery-2.1.1.min.js"></script>
+    <script>
+        $("#register").click(
+                        function(){
+                            var com = $("#com").val();
+                            {#console.log(com);#}
+                            var url = '/myblog/gbook/';
+                            send_data = {
+                                "com": com,
+                                "csrfmiddlewaretoken": "{{ csrf_token }}"
+                            };
+                            $.ajax({
+                                url: url,
+                                type: "post",
+                                data: send_data,
+                                success: function(data){
+                                    console.log('留言成功')
+
+                                }
+                            })
+                        }
+                    );
+
+
+     var url = '/myblog/comment_api/';
+	$.ajax({
+		type:'post',
+        url: url,
+        data:{
+		    "csrfmiddlewaretoken": "{{ csrf_token }}",
+            "res": ''
+        },
+        success:function(data) {
+            console.log(data);
+            console.log(data.res);
+            console.log(data.res.length);
+            for (var i= data.res.length-1; i<=data.res.length; i--){
+                var str ='<p style="background-color: #e2e2e2; height: 30px; line-height: 30px; padding: 0 15px 0 15px">\n' +
+                    '<span>'+ data.res[i]["comment"] +'</span>\n' +
+                    '<span style="float: right">'+ data.res[i]["date"] +'</span>\n' +
+                    '</p><br>';
+		            $("#cont").prepend(str);
+            }
+        }
+    });
+
+    </script>
 {% endblock %}

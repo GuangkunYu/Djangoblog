@@ -142,6 +142,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
 
 # 配置富文本
+# CKEDITOR_CONFIGS = {
+#     'default': {
+#         'toolbar': 'full', #工具栏全部功能
+#         'height': 300, # 高度
+#         'width': 730, # 宽度
+#     },
+# }
 # 基于CKeditor的上传地址
 CKEDITOR_UPLOAD_PATH = 'static/upload'
 # CKeditor上传图片使用的模块

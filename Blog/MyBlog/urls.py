@@ -11,6 +11,7 @@ urlpatterns = [
     path('gbook/', gbook),
     # path('js/', js),
     path('article_api/', article_api),
+    path('comment_api/', comment_api),
 
     # path('add_art/', add_art),
 ]
